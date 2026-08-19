@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    char num[1005];
+    int c_0=0,c_1=0,c_2=0,c_3=0,c_4=0,c_5=0,c_6=0,c_7=0,c_8=0,c_9=0;
+    scanf("%s",num);
+    for(int i;num[i]!='\0';i++){
+        if(num[i]=='0'){
+            c_0++;
+        }
+        else if(num[i]=='1'){
+            c_1++;
+        }
+       else if(num[i]=='2'){
+            c_2++;
+        }
+        else if(num[i]=='3'){
+            c_3++;
+        }
+        else if(num[i]=='4'){
+            c_4++;
+        }
+        else if(num[i]=='5'){
+            c_5++;
+        }
+        else if(num[i]=='6'){
+            c_6++;
+        }
+        else if(num[i]=='7'){
+            c_7++;
+        }
+       else if(num[i]=='8'){
+            c_8++;
+        }
+        else if(num[i]=='9'){
+            c_9++;
+        }
+        
+    }
+    printf("%d %d %d %d %d %d %d %d %d %d\n", c_0,c_1, c_2, c_3, c_4, c_5, c_6, c_7, c_8, c_9);
+        return 0;
+}
